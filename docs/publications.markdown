@@ -10,9 +10,9 @@ permalink: /publications/
 \* denotes equal contributions.
 
 # [Understanding Adam Requires Better Rotation Dependent Assumptions](Understanding Adam Requires Better Rotation Dependent Assumptions)
-Lucas Maes\*, Tianyue H. Zhang\*, Alexia Jolicoeur-Martineau, Ioannis Mitliagkas, Damien Scieur, Simon Lacoste-Julien, **Charles Guille-Escuret**.
+Tianyue H. Zhang\*, Alan Miligan\*, Lucas Maes\*, Alexia Jolicoeur-Martineau, Ioannis Mitliagkas, Damien Scieur, Simon Lacoste-Julien, **Charles Guille-Escuret**.
 
-Under review at AISTATS 2025.
+Presented at NeurIPS 2025.
 
 *Short summary: we conduct a large scale empirical experiment on the relationship between Adam's performance and the parameter basis. We find that 
 under random rotation of the basis, Adam's performance degrade severly. This suggest that Adam's de-facto dominance is tied to its ability to leverage
