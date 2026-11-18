@@ -9,8 +9,27 @@ permalink: /publications/
 
 \* denotes equal contributions.
 
-# [Understanding Adam Requires Better Rotation Dependent Assumptions](Understanding Adam Requires Better Rotation Dependent Assumptions)
-Tianyue H. Zhang\*, Alan Miligan\*, Lucas Maes\*, Alexia Jolicoeur-Martineau, Ioannis Mitliagkas, Damien Scieur, Simon Lacoste-Julien, **Charles Guille-Escuret**.
+# K2-Horizon: A Frontier Fleet of Open Source Language Models
+K2 Team, IFM.
+
+2026.
+
+*Short summary: a thorough technical report on the K2-Horizon release, our fleet of open source language models, covering
+the models, how they were built and how they perform.*
+
+# [Taming Softmax at the Limits of Muon: A Unified Approach through Hilbert Geometry](https://arxiv.org/abs/2610.17588)
+Aditya Somasundaram, **Charles Guille-Escuret**, Alexander Moreno, Zhengzhong Liu, Eric Xing.
+
+ArXiv.
+
+*Short summary: Muon measures the size of weight updates with RMS norms, but for softmax modules an RMS change in the logits is a poor
+proxy for how much the output distribution actually moves. We propose the Hilbert distance as the right metric for softmax outputs,
+since it controls changes in cross-entropy and in how probability mass is redistributed. Solving the steepest-descent problem under this
+geometry recovers RowNorm for the LM head and the query-key update of Compositional Muon for attention, offering a unified principle for
+designing optimizers around softmax.*
+
+# [Understanding Adam Requires Better Rotation Dependent Assumptions](https://arxiv.org/abs/2410.19964)
+Tianyue H. Zhang\*, Alan Milligan\*, Lucas Maes\*, Alexia Jolicoeur-Martineau, Ioannis Mitliagkas, Damien Scieur, Simon Lacoste-Julien, **Charles Guille-Escuret**.
 
 Presented at NeurIPS 2025.
 
@@ -18,6 +37,16 @@ Presented at NeurIPS 2025.
 under random rotation of the basis, Adam's performance degrade severly. This suggest that Adam's de-facto dominance is tied to its ability to leverage
 properties of the standard basis. Consequently, understanding Adam requires rotation-dependent assumptions capable of capturing these properties. We 
 find that existing rotation-dependent in the literature do not adequately align with the performance of Adam.* 
+
+# [Using Scaling Laws for Data Source Utility Estimation in Domain-Specific Pre-Training](https://arxiv.org/abs/2507.22250)
+Oleksiy Ostapenko, **Charles Guille-Escuret**, Luke Kumar, Max Tian, Denis Kocetkov, Gopeshh Subbaraj, Raymond Li, Joel Lamy-Poirier, Sebastien Paquet, Torsten Scholak.
+
+ArXiv.
+
+*Short summary: when specializing a pretrained model to a target domain through annealing, choosing which data sources to acquire or
+generate requires estimating their utility. Rather than relying on a single annealing run per source (micro-annealing), we fit scaling
+curves by annealing at several compute budgets, since point estimates can rank sources inconsistently across scales. Experiments on a
+7B model adapted to medical and math domains show that this approach can lead to different data acquisition decisions than point estimates.*
 
 # [Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection](https://arxiv.org/abs/2308.11480)
 **Charles Guille-Escuret**, Pierre-André Noel, David Vazquez, Ioannis
